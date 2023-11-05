@@ -8,7 +8,6 @@ module.exports.PostAttribute = (req, res) => {
     close: false,
   };
   try {
-    console.log("req.body", req.body);
     const { temperature, humidity, timeInHr } = req.body;
     const attribute = new Attribute({
       timeInHr,

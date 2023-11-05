@@ -9,7 +9,7 @@ app.use(cors());
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-console.log(process.version);
+
 const attribute = require('./controller/attribute');
 require('./config/db');
 
